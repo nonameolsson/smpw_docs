@@ -1,0 +1,3 @@
+# Templates
+
+Nam massa tortor, tincidunt id eleifend nec, fringilla vitae turpis. Sed sodales pulvinar nisi. Nulla vel ipsum eget nunc vehicula ultricies vel sit amet metus. Quisque risus neque, dapibus a nibh a, blandit placerat velit. Morbi tristique arcu ac libero sagittis, eget blandit erat tempus. Praesent scelerisque turpis mi, eu varius mauris blandit aliquet. Aenean vitae varius lacus, in fringilla sem.

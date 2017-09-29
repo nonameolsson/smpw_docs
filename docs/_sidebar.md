@@ -1,0 +1,7 @@
+- [Home](/)
+- [Publishers](/publishers/index)
+  - [Add new](/publishers/add)
+  - [Remove](/publishers/remove)
+- [Schedule](/schedule/index)
+  - [Create](/schedule/create)
+  - [Templates](/schedule/templates)
