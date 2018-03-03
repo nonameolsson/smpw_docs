@@ -1,5 +1,0 @@
----
-title: Redigera
-visible: true
----
-
