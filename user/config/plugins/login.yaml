@@ -1,0 +1,5 @@
+user_registration:
+  access:                                   # Default access to set for users created during registration
+    site:
+      login: 'true'
+      editable: 'true'

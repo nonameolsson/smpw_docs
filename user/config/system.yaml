@@ -73,6 +73,9 @@ pages:
   ignore_folders:
     - .git
     - .idea
+    - .revs
+    - .revs
+    - .revs
   ignore_hidden: true
   url_taxonomy_filters: true
   frontmatter:

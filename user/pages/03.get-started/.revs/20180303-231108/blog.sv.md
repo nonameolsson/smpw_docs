@@ -1,13 +1,5 @@
 ---
 title: 'Kom igång'
-content:
-    items: '@self.children'
-    limit: '5'
-    order:
-        by: date
-        dir: desc
-    pagination: '1'
-    url_taxonomy_filters: '1'
 ---
 
 När man skapar en plats för första gången behövs det en liten hjälp på i vilken ordning man bör göra saker och ting.
