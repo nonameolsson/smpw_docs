@@ -1,7 +1,6 @@
-title: Grav
+title: SMPW Support
 author:
-  name: Joe Bloggs
-  email: 'joe@test.com'
+  name: Andreas Olsson
+  email: 'noname.olsson@gmail.com'
 metadata:
-    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
-
+    description: 'A great documentation for SMPW'
