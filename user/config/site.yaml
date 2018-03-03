@@ -4,3 +4,6 @@ author:
   email: 'noname.olsson@gmail.com'
 metadata:
     description: 'A great documentation for SMPW'
+access:
+  site.login: true
+  admin.login: true

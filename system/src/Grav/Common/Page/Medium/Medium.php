@@ -2,7 +2,7 @@
 /**
  * @package    Grav.Common.Page
  *
- * @copyright  Copyright (C) 2014 - 2017 RocketTheme, LLC. All rights reserved.
+ * @copyright  Copyright (C) 2015 - 2018 Trilby Media, LLC. All rights reserved.
  * @license    MIT License; see LICENSE file for details.
  */
 
@@ -90,6 +90,20 @@ class Medium extends Data implements RenderableInterface
     public function meta()
     {
         return new Data($this->items);
+    }
+
+    /**
+     * Check if this medium exists or not
+     *
+     * @return bool
+     */
+    public function exists()
+    {
+        $path = $this->get('filepath');
+        if (file_exists($path)) {
+            return true;
+        }
+        return false;
     }
 
     /**

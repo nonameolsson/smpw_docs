@@ -1,4 +1,5 @@
 absolute_urls: false
+timezone: Europe/Stockholm
 param_sep: ':'
 wrapped_site: false
 reverse_proxy_setup: false
@@ -13,23 +14,24 @@ languages:
     - en
   include_default_lang: true
   translations: true
-  translations_fallback: true
+  translations_fallback: false
   session_store_active: false
   http_accept_language: true
   override_locale: false
 home:
-  alias: /home
-  hide_in_urls: false
+  alias: /start
+  hide_in_urls: true
 pages:
-  theme: antimatter
+  theme: learn2
   order:
     by: default
     dir: asc
   list:
     count: 20
   dateformat:
-    short: 'jS M Y'
-    long: 'F jS \a\t g:ia'
+    default: 'Y-m-d H:i'
+    short: 'd-m-y G:i'
+    long: 'l jS \of F g:i A'
   publish_dates: true
   process:
     markdown: true
@@ -40,7 +42,7 @@ pages:
     page: true
     twig: true
   markdown:
-    extra: false
+    extra: true
     auto_line_breaks: false
     auto_url_links: false
     escape_markup: false
@@ -127,6 +129,7 @@ media:
   upload_limit: 2097152
 session:
   enabled: true
+  initialize: true
   timeout: 1800
   name: grav-site
   secure: false
